@@ -28,5 +28,5 @@ void Warlock::forgetSpell(std::string spell) {
 
 void Warlock::launchSpell(std::string spell, ATarget& target) {
     ASpell *power = _grimoire.createSpell(spell);
-     (*power).launch(target);
+    (*power).launch(target);
 }
