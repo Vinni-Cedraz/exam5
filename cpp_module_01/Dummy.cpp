@@ -3,4 +3,4 @@
 
 Dummy::~Dummy() {}
 Dummy::Dummy() : ATarget("Target Practice Dummy") {}
-Dummy* Dummy::clone() const { return new Dummy(); }
+ASpell* Dummy::clone() const { return new Dummy(); }
